@@ -1,0 +1,73 @@
+/*
+	Aaron Potter
+	April 2, 2021
+	*/
+
+	
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+}
+
+h2 {
+	font-family: 'berkshire_swashregular';
+	font-weight: normal;
+	font-style: italic;
+}
+
+body {
+	background-color: #b8d1eb;
+	color: #000000;
+	font-family: "Times New Roman", sans-serif;
+}
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+
+}
+main {
+	background-color: #c5a98b;
+	padding: 10px;
+}
+
+main ul {
+	list-style-image: url('../images/tomato.png');
+}
+
+main, footer { 
+clear: both;
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	background-color: rgb(141, 155, 146);
+	padding: 10px 0;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+@font-face {
+    font-family: 'berkshire_swashregular';
+    src: url('../fonts/webfontkit/berkshireswash-regular-webfont.woff2') format('woff2'),
+         url('../fonts/webfontkit/berkshireswash-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
