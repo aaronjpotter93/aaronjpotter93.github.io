@@ -1,0 +1,31 @@
+/* Name: Aaron Potter
+Date: April 23, 2021 */
+
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+}
