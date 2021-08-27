@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Spider Be Gone Landing Page</title>
+  </head>
+  
+  <body>
+    <main>
+        <h1>Spider Be Gone Co.</h1>
+        <h5>Can't handle killing the spider yourself? That's where we come in!</h5>
+    </main>
+  </body>
+
+  <div>
+    <h3>Enter your email to see our rates</h3>
+    <form id="email_form" name="email_form" 
+          action="join.html" method="get">
+        <div>
+            <label for="email_1">Email Address:</label>
+            <input type="text" id="email_1" name="email_1">
+            <span id="email_1_error">*</span>
+        </div>
+        
+        <div>
+            <label for="email_2">Confirm Email Address:</label>
+            <input type="text" id="email_2" name="email_2">
+            <span id="email_2_error">*</span>
+        </div>
+        
+        <div>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <span id="first_name_error">*</span>
+        </div>
+        
+        <div>
+            <label>&nbsp;</label>
+            <input type="submit" id="join_list" value="Join List">
+            <input type="button" id="clear_form" value="Clear Form">
+        </div>     
+
+    </form>
+  </div>
+
+  <script src="landing.js"></script>
+</html>
