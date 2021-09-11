@@ -1,0 +1,95 @@
+/*********************************************************************
+
+*** MODIFICATION LOG ***
+
+*Original Author: Aaron Potter                                   
+*Date Created: 8/25/2021                                      
+*Version: 0.5                                               
+*Date Last Modified:                              
+*Modified by: Aaron Potter                                          
+*Modification log:  
+
+        Version 0.0 - 8/25/2021 - Added a background color | Added a background image
+        Version 0.5 - 8/26/2021 - Added styes for the form
+        Version 1.0 - 9/1/2021 - Centered html on webpage
+        Version 1.5 - 9/3/2021 - Added some column styling
+
+******************************************************************** */
+
+
+img {
+    max-width: 225px;
+    max-height: 272px;
+}
+
+body {
+    background: url("../images/Spiderman.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: .5em;
+}
+
+h5 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+h3 {
+    color: darkseagreen;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+span {
+    color: rgb(185, 35, 35);
+}
+
+/* html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+} */
+
+.col-sm {
+    border: rgb(173, 141, 141);
+    border-style: dotted;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    color: rgb(49, 59, 114)!important;
+}
+
+.homePageLink {
+    color: tomato!important;
+}
