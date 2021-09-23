@@ -1,0 +1,150 @@
+/*********************************************************************
+
+*** MODIFICATION LOG ***
+
+*Original Author: Aaron Potter                                   
+*Date Created: 8/25/2021                                      
+*Version: 2.0                                              
+*Date Last Modified: 9/17/2021                            
+*Modified by: Aaron Potter                                          
+*Modification log:  
+
+        Version 0.0 - 8/25/2021 - Added a background color | Added a background image
+        Version 0.5 - 8/26/2021 - Added styes for the form
+        Version 1.0 - 9/01/2021 - Centered html on webpage
+        Version 1.5 - 9/03/2021 - Added some column styling
+        Version 2.0 - 9/17/2021 - Added some styling to make text more readable
+
+******************************************************************** */
+
+
+img {
+    width: auto!important;
+    height: 250px;
+    margin: auto;
+}
+
+body {
+    background: url("../images/Spiderman.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: .5em;
+}
+
+h5 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#findOrBecome {
+    color: darkseagreen;
+    text-shadow: 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139);
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+span {
+    color: rgb(185, 35, 35);
+}
+
+.col-sm {
+    border: rgb(173, 141, 141);
+    border-style: dotted;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    color: white!important;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.homePageLink {
+    color: tomato!important;
+}
+
+.radioStyle {
+    color: white;
+}
+.textOutline {
+    text-shadow: 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139);
+}
+
+#formContainer {
+    padding: 15px;
+    background-image: linear-gradient(transparent, rgb(82, 86, 92));
+    border-radius: 10px;
+}
+
+label {
+    color: white;
+    text-shadow: 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139);
+}
+#registerHeading {
+    color: white;
+    text-shadow: 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139);
+}#faqsHeading {
+    color: white;
+    text-shadow: 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139);
+}
+
+#pickWeaponHeading {
+    text-shadow: 0 0 2px yellow, 0 0 2px yellow, 0 0 2px yellow, 0 0 2px yellow;
+}
+#pickWeaponParagraph {
+    color: white;
+    text-shadow: 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139), 0 0 2px rgb(15, 17, 139);
+    text-align: center;
+}
+#emptyRow {
+    height: 75vh;
+}
+
+.carousel-inner {
+    background: rgba(82, 86, 92, .6);
+    border-radius: 10px;
+}
