@@ -1,0 +1,40 @@
+/**************************************************************************************************************
+  
+*** MODIFICATION LOG ***
+
+#Original Author: Aaron Potter                                       
+#Date Created: April 7, 2021 at 12:26 PM                                        
+#Version: 1.0                                                 
+#Date Last Modified: 10/01/2021                               
+#Modified by: Aaron Potter                                           
+#Modification log: 
+
+  Version 1.0 - 10/01/2021 - No Changes
+  
+**************************************************************************************************************/
+
+table {
+  width: 100%;
+  background-image: linear-gradient(#FFFFFF, #F0F9E6);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #475857; 
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+table td, th {
+  border-width: 2px;
+  border-color: #475857;
+  border-style: solid;
+  padding: 15px;
+}
+
+table thead {
+  background-color: #475857;
+}
+
+table tfoot {
+  text-align: right;
+}
