@@ -1,5 +1,7 @@
 # Hello World: The Start of My Developer Journey
 
+<!-- TODO Add a table to the top that is a quick reference for some of the top or featured projects/assignemnts. such as the more advanced previews -->
+
 Welcome to my collection of projects and assignments from my associates degree in Software Development at the College of Western Idaho (CWI)! This repository captures the early stages of my journey, where I began exploring programming, web development, and the fundamentals of software.
 
 ## About This Repository
