@@ -29,7 +29,7 @@ Below is a list of assignments with links to preview the results, access the par
 | Mario Kart Assignment | [Live Preview](https://aaronjpotter93.github.io/mario-kart/index.html)       | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/mario-kart) | CSS-only design practice                |
 | Yoga                  | [Live Preview](https://aaronjpotter93.github.io/yoga/index.html)             | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/yoga)             | Intro to HTML and CSS                   |
 | Wildlife Rescue       | [Live Preview](https://aaronjpotter93.github.io/wildlife-rescue-bootstrap/index.html) | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/wildlife-rescue-bootstrap) | Using the Bootstrap CSS library         |
-*(More links will be added as they become available.)*
+*(More links will be added soon. If you’ve made it this far into the repo before I get around to it, you’ll have to wade through some weeds. My condolences.)*
 
 
 ---
