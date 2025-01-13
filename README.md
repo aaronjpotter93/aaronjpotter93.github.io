@@ -17,3 +17,8 @@ Here’s what you’ll find:
 - **JavaScript Scripts**: Simple interactive features and exercises, such as loops, DOM manipulation, and event handling.
 
 Each project reflects my progress as I practiced and applied new concepts, building confidence with every assignment.
+
+### Projects  
+- [Mario Kart Assignment](https://aaronjpotter93.github.io/mario-kart/index.html)  
+- [Project Name 2](https://aaronjpotter93.github.io/project-name-2/index.html)  
+- [Project Name 3](https://aaronjpotter93.github.io/project-name-3/index.html) 
