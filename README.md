@@ -18,7 +18,18 @@ Here’s what you’ll find:
 
 Each project reflects my progress as I practiced and applied new concepts, building confidence with every assignment.
 
-### Projects  
-- [Mario Kart Assignment](https://aaronjpotter93.github.io/mario-kart/index.html)  
-- [Project Name 2](https://aaronjpotter93.github.io/project-name-2/index.html)  
-- [Project Name 3](https://aaronjpotter93.github.io/project-name-3/index.html) 
+---
+
+## Project Quick Reference
+
+Below is a list of assignments with links to preview the results, access the parent directory, and see the topics they covered.
+
+| Assignment Name       | Preview Link                                                                 | Code Directory                                                           | Course Area/Topic                       |
+|-----------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------|
+| Mario Kart Assignment | [Live Preview](https://aaronjpotter93.github.io/mario-kart/index.html)       | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/mario-kart) | CSS-only design practice                |
+| Yoga                  | [Live Preview](https://aaronjpotter93.github.io/yoga/index.html)             | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/yoga)             | Intro to HTML and CSS                   |
+| Wildlife Rescue       | [Live Preview](https://aaronjpotter93.github.io/wildlife-rescue-bootstrap/index.html) | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/wildlife-rescue-bootstrap) | Using the Bootstrap CSS library         |
+*(More links will be added as they become available.)*
+
+
+---
