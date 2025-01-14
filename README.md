@@ -21,16 +21,24 @@ Here’s what you’ll find:
 Each project reflects my progress as I practiced and applied new concepts, building confidence with every assignment.
 
 ---
-
-## Project Quick Reference
+### Spring 2021
 
 Below is a list of assignments with links to preview the results, access the parent directory, and see the topics they covered.
 
 | Assignment Name       | Preview Link                                                                 | Code Directory                                                           | Course Area/Topic                       |
 |-----------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------|
-| Mario Kart Assignment | [Live Preview](https://aaronjpotter93.github.io/mario-kart/index.html)       | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/mario-kart) | CSS-only design practice                |
-| Yoga                  | [Live Preview](https://aaronjpotter93.github.io/yoga/index.html)             | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/yoga)             | Intro to HTML and CSS                   |
-| Wildlife Rescue       | [Live Preview](https://aaronjpotter93.github.io/wildlife-rescue-bootstrap/index.html) | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/wildlife-rescue-bootstrap) | Using the Bootstrap CSS library         |
+| Bread Gallery         | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/0-bread-gallery/index.html)    | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/0-bread-gallery)    | HTML and CSS                            |
+| City Farmers          | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/1-city-farmers/cf_index.html)     | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/1-city-farmers)     | HTML and CSS                            |
+| Try and Succeed       | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/2-try-and-succeed/tss_home.html)   | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/2-try-and-succeed)   | HTML and CSS                            |
+| Building Blocks       | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/3-building-blocks/index.html)   | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/3-building-blocks)   | HTML and CSS                            |
+| Gradient Practice     | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/4-gradient-practice/gradientPractice.html)         | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/4-gradient-practice)         | CSS Gradients                            |
+| Recreation Schedule   | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/5-midtown-recreation-schedule/analyze07.html)   | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/5-midtown-recreation-schedule)   | HTML Tables                            |
+| Build It             | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/6-build-it-they-will-come/index.html) | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/6-build-it-they-will-come) | HTML and CSS                       |
+| Durango Jewelry      | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/7-durango-jewelry/index.html)             | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/7-durango-jewelry)             | HTML and CSS                   |
+| SVG Practice         | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/8-svg/myFirstSVG.html)  | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/8-svg)  | SVG Graphics                            |
+| Portfolio            | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/9-portfolio/index.html) | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/9-portfolio) | HTML and CSS                         |
+| Strike a Chord       | [Live Preview](https://aaronjpotter93.github.io/1-spring-2021/10-strike-a-chord/index.html) | [Project Code](https://github.com/aaronjpotter93/aaronjpotter93.github.io/tree/main/1-spring-2021/10-strike-a-chord) | HTML and CSS                         |
+
 *(More links will be added soon. If you’ve made it this far into the repo before I get around to it, you’ll have to wade through some weeds. My condolences.)*
 
 
