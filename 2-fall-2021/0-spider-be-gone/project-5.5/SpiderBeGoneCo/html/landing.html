@@ -1,0 +1,81 @@
+<!doctype html>
+
+<!------------------------------------------------------------------------------------------------------------------
+  
+  *** MODIFICATION LOG ***
+
+#Original Author: Aaron Potter                                       
+#Date Created: 8/25/21                                        
+#Version: 2.0                                                 
+#Date Last Modified: 9/17/2021                               
+#Modified by: Aaron Potter                                           
+#Modification log: 
+
+    Version 0.0 - 8/25/2021 - Essential files created. 
+    Version 0.5 - 8/26/2021 - Created content for the sight including the header and body | Added an email form 
+    Version 1.0 - 8/31/2021 - Mod Log created and caught up to date | Moved the form div from outside the body to insided the body
+    Version 1.5 - 9/03/2021 - Adjusted the form from an email and contact to a zipcode entry to get started
+    Version 2.0 - 9/17/2021 - Added a favicon and font awesome icons for social media links. Changed some styles so the text could be more readable.
+    
+------------------------------------------------------------------------------------------------------------------>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="../css/landing.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../javascript/landing.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Favicon.io -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicon_io/site.webmanifest">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/96ccf47f02.js" crossorigin="anonymous"></script>
+    <title>Spider Be Gone Landing Page</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 id="title">Spider Be Gone Co.</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div id="formContainer" class="col-6 offset-1 getStarted">
+          <h3 class="textOutline">Can't handle killing the spider yourself? That's where we come in!</h3>
+          <br>
+          <h5 class="textOutline">Get Started Finding a Qualified Spider Killer</h5>
+          <br>
+          <form id="zip_form" name="zip_form" action="../html/home.html " method="get">
+            <div>
+                <label class="textOutline" for="zip_form">Show us where the spider is:</label>
+                <input placeholder="Zip Code" class="form-control" type="text" id="zip" name="zip">
+                <p class="text-danger textOutline" id="zip_error"></p>
+                <br>
+            </div>
+            
+            <div>
+                <label>&nbsp;</label>
+                <button class="btn btn-dark" type="button" id="zip_button">Go Get Em</button>
+            </div>     
+          </form>
+          <div class="row">
+            <div id="favcons" class="col-6 offset-4">
+              <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

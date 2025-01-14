@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<!------------------------------------------------------------------------------------------------------------------
+    
+  *** MODIFICATION LOG ***
+
+#Original Author: Aaron Potter                                       
+#Date Created: 8/25/21                                        
+#Version: 1.5                                                  
+#Date Last Modified: 8/31/2021                               
+#Modified by: Aaron Potter                                           
+#Modification log: 
+
+        Version 0.0 - 8/25/2021 - created the join page as a confirmation to the client that they successfully entered int the desired information.
+        Version 0.5 - 9/3/2021 - added three secions, the contact, register, and faq panels
+        Version 1.0 - 9/10/2021 - fixed js for the form. added contact page and js. added the carousel and images. Havent gotten the js to work yet. added accordian and working js.
+        Version 1.5 - 9/17/2021 - fixed carousel. added a favicon and font awesome icons for social media links. Changed some styles so the text could be more readable.
+
+------------------------------------------------------------------------------------------------------------------>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/home.css">
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Favicon.io -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicon_io/site.webmanifest">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/96ccf47f02.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="navUl">
+            <li class="nav-item active"><a class="nav-link homePageLink" href="home.html">S|B|G|C</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faqsHeading">FAQs</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 id="findOrBecome">Find or Become a Spider Handler</h3>
+            <h4 id="registerHeading">Register for an Account</h4>
+            <form>
+                <div id="formContainer" class="col-6">
+                  <div>
+                    <label for="email_address">E-Mail:</label>
+                    <input class="form-control" type="text" name="email_address" id="email_address">
+                    
+                    <div class="text-danger textOutline" id="email_error"></div>
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Mobile Phone:</label>
+                    <input class="form-control" type="text" name="phone" id="phone">
+                    
+                    <div class="text-danger textOutline" id="mobile_error"></div>
+                </div>
+                <br>
+                <div class="radioStyle">
+                    <label>Interested in:</label>
+                    <br>
+                    <input type="radio" name="finding" id="finding"
+                        value="finding" checked>&nbsp;Finding available spider handlers
+                        <br>
+                    <input type="radio" name="becoming" id="becoming"
+                        value="becoming">&nbsp;Becoming a spider handler.
+                        <br>
+                </div>
+                <br>
+                <div class="radioStyle">
+                    <label>Terms of Service:</label>
+                    <input type="checkbox" name="terms" id="terms"
+                        value="yes">&nbsp;I accept
+                    <span>*</span>
+                    <div class="text-danger textOutline" id="accept_error"></div>
+                </div>
+                <br>
+                <div>
+                    <label>&nbsp;</label>
+                    <button class="btn btn-light" type="button" id="register">Register</button>
+                    <button class="btn btn-danger" type="button" id="reset_form">Clear</button>
+                </div>
+                <br>
+                </div>
+            </form>
+            
+            <!-- Carousel -->
+            <h1 id="pickWeaponHeading">Browse our selection of weapons</h1>
+            <p id="pickWeaponParagraph">Equipt yourself for when the big spider comes!</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block" src="../images/gravityhammer.png" alt="Gravity Hammer">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/mastersword.jpg" alt="Master Sword">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/portalgun.jpg" alt="Portal Gun">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/deathstar.jpg" alt="Death Star">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/Hammer_of_Dawn_Targeting_Beacon.jpeg" alt="Hammer of Dawn">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/Ray_Gun_Menu_Icon_BOII.png" alt="Ray Gun">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/Rabadon's_Deathcap_item_HD.png" alt="Death Cap">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/elderwand.jpeg" alt="Elder Wand">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../images/acr.jpeg" alt="ACR">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--FAQs-->  
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 id="faqsHeading">Frequently Asked Questions</h2>
+          <div id="accordion">
+            <h3>Are you a pest control company?</h3>
+            <div>
+              <p>
+              No we don't offer pest control services. We are focused on invasive spiders 
+              that you don't want to kill.
+              </p>
+            </div>
+            <h3>Do you have to kill the spider or are there gentler options?</h3>
+            <div>
+              <p>
+              You can filter the method of removal based on your preferences and yes there 
+              is a filter to gently release the spider into the wild.
+              </p>
+            </div>
+            <h3>Can I become a Spider Killing specialist?</h3>
+            <div>
+              <p>
+              It's very easy to become a paid spider killer. Just sign up in the contact 
+              form and check the box that says "Become a Spider Handler" and whenever you 
+              are free set your status to <emph>available.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="favcons" class="col-6 offset-5">
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+        </div>
+      </div>
+      <div id="emptyRow"></div>
+    </div> 
+    <script src="../javascript/home.js"></script>
+  </body>
+</html>

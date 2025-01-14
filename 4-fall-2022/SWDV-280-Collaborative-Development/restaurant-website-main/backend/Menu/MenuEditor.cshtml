@@ -1,0 +1,63 @@
+﻿@page
+@model TestBackEnd.Pages.Menu.MenuEditorModel
+@{
+}
+
+<br />
+<h2>Menu Editor</h2>
+<hb />
+<a href='/Menu/Create'>Create new Menu Item</a>
+<br />
+<table>
+    <thead>
+        <tr>
+            <th>Menu Items</th>
+            <th>Desc</th>
+            <th>Price</th>
+            <th>Ingredients</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.menu)
+        {
+            <tr>
+                <td>@item.MenuItemName</td>
+                <td>@item.MenuItemDescription</td>
+                <td>@item.MenuItemPrice</td>
+                <td title="@item.Ingredients">[MouseOver]</td>
+                <td>
+                    <a href="/Users/Edit?id=@item.id">Edit</a>
+                    <a href="/Users/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@*
+<br />
+<br />
+<h2>Ingredients</h2>
+<br/>
+<table>
+    <thead>
+        <tr>
+            <th>Ingredient</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ingredients)
+        {
+            <tr>
+                <td>@item.name</td>
+                <td>@item.price</td>
+                <td>
+                    <a href="/Users/Edit?id=@item.id">Edit</a>
+                    <a href="/Users/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@

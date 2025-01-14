@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<!------------------------------------------------------------------------------------------------------------------
+  
+  *** MODIFICATION LOG ***
+
+#Original Author: Aaron Potter                                       
+#Date Created: April 7, 2021 at 12:26 PM                                        
+#Version: 1.0                                                 
+#Date Last Modified: 10/01/2021                               
+#Modified by: Aaron Potter                                           
+#Modification log: 
+
+    Version 1.0 - 10/01/2021 - Added JavaScript for functionality and error handling in the contact form. 
+	Also added Regex for input validation. Replaced social media icon images with font awesome classes.
+    
+------------------------------------------------------------------------------------------------------------------>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="contact, form, email">
+    <meta name="author" content="Aaron Potter">
+    <meta name="description" content="Basic Contact Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/96ccf47f02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stylesTable.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+	<a href="../index.html"><img class="addrightmargin" src="../images/profile-image.png" alt="smoky quartz pendant" width="171" height="171"></a>
+	<nav>
+		<ul>
+			<li><a href="../index.html">Home</a>&nbsp;</li>
+			<li><a href="about.html">About</a>&nbsp;</li>
+			<!-- <li><a href="resume.html">Resume</a>&nbsp;</li> -->
+			<li><a href="contact.html">Feedback</a>&nbsp;</li>
+		</ul>
+	</nav>
+	<div id="innerwrapper">
+        <header>
+            <h1>Feedback</h1>
+            <h2>Tell Me What You Think of My Website</h2>  
+        </header>
+        <form>
+            <div id="formContainer">
+                <!-- caption placed here -->
+            <label>How'd You hear about me?</label>
+            
+            <select name="contact">
+                <option value="---">---</option>
+                <option value="referal">Referal</option>
+                <option value="advertisment">Advertisment</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="social media">Social Media</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <div>
+                <label for="email">E-Mail:</label>
+                <input class="form-control" type="text" name="email" id="email">
+                <div class="text-danger textOutline" id="email_error"></div>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Mobile Phone:</label>
+                <input class="form-control" type="text" name="phone" id="phone">
+                <div class="text-danger textOutline" id="mobile_error"></div>
+            </div>
+            <br>
+            <div class="radioStyle">
+                <label>Contact me by:</label>
+                <input type="radio" name="contact" id="text"
+                    value="text" checked>&nbsp;Text
+                <input type="radio" name="contact" id="email"
+                    value="email">&nbsp;Email
+            </div>
+            <br>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea class="form-control" name="comments" id="comments" row="5" cols="40"></textarea>
+                <div class="text-danger textOutline" id="comments_error"></div>
+            </div>
+            <br>
+            <div>
+                <label>&nbsp;</label>
+                <button class="btn btn-light" type="button" id="register">Send</button>
+                <button class="btn btn-danger" type="button" id="reset_form">Clear</button>
+            </div>
+            </div>
+        </form>
+</div>
+<footer>
+	<ul class="socialwrap">
+        <a href="tel:+012083716211"><i class="social fab fa-phone-square fa-3x"></i></a>
+        <a href="mailto:aaronpotter@my.cwi.edu"><i class="social fab fa-envelope-square fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/aaron-potter-31b172107/" target="_blank"><i class="social fab fa-linkedin fa-3x"></i></a>
+        <a href="https://github.com/aaronjpotter93/aaronjpotter93.github.io" target="_blank"><i class="social fab fa-github-square fa-3x"></i></a>
+       <a href="https://www.facebook.com/aaronj.potter.54" target="_blank"><i class="social fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.instagram.com/aaronjpotter/" target="_blank"><i class="social fab fa-instagram-square fa-3x"></i></a>
+	</ul>
+</footer>
+</body>
+</html>

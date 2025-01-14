@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<!---Aaron Potter
+     April 14th 2021    -->
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="keywords" content="contact, form, email">
+   <meta name="author" content="Aaron Potter">
+   <meta name="description" content="Basic Contact Form">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Contact Form</title>
+   <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/stylesTable.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+	<a href="index.html"><img class="addrightmargin" src="images/profile-image.png" alt="smoky quartz pendant" width="171" height="171"></a>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a>&nbsp;</li>
+			<li><a href="about.html">About</a>&nbsp;</li>
+			<!-- <li><a href="resume.html">Resume</a>&nbsp;</li> -->
+			<li><a href="contact.html">Feedback</a>&nbsp;</li>
+		</ul>
+	</nav>
+	<div id="innerwrapper">
+        <header>
+            <h1>Feedback</h1>
+            <h2>Tell Me What You Think of My Website</h2>  
+        </header>
+        <form action="mailto:aaronpotter@my.cwi.edu?subject=Personal-Portfolio-Mail" enctype="text/plain" method="POST">
+            <!-- fieldset changes the appearance of this page in a way that I don't like -->
+            <fieldset>
+                <label for="company">Company:</label><br> 
+            <input type="text" name="compName" size="50" id="company"><br>
+            
+            <label for="contact">Person to contact:</label><br>
+            <input type="text" name="contactName" size="30" id="contact"><br><br>
+            <!-- caption placed here -->
+            <label>How'd You hear about me?</label>
+            
+            <select name="contact">
+                <option value="---">---</option>
+                <option value="referal">Referal</option>
+                <option value="advertisment">Advertisment</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="social media">Social Media</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label>Was the site easy to navigate?</label><br>
+            <input type="radio" id="yes" name="yes" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="no" value="no">
+            <label for="no">No</label><br><br>
+            
+            <label for="comment">Enter your comments:</label><br>
+            <textarea cols="100" rows="10" name="comment" id="comment"></textarea><br><br>
+            
+            <input type="submit" id="submit" value="Submit" class="btn">
+            </fieldset>
+        </form>
+</div>
+<footer>
+	<ul class="socialwrap">
+        <li class="social"><a href="tel:+012083716211"><img class="image" src="images/phone.png" alt="phone icon"></a></li>
+		<li class="social"><a href="mailto:aaronpotter@my.cwi.edu"><img class="image" src="images/email.png" alt="email icon"></a></li>
+		<li class="social"><a href="https://www.linkedin.com/in/aaron-potter-31b172107/" target="_blank"><img class="image" src="images/linkedin.png" alt="linkedin icon"></a></li>
+		<li class="social"><a href="https://github.com/aaronjpotter93/aaronjpotter93.github.io" target="_blank"><img class="image" src="images/github.png" alt="github icon"></a></li>
+		<li class="social"><a href="https://www.facebook.com/aaron.potter3/" target="_blank"><img class="image" src="images/facebook.png" alt="facebook icon"></a></li>
+		<li class="social"><a href="https://www.instagram.com/aaronisyodude/" target="_blank"><img class="image" src="images/instagram.png" alt="instagram icon"></a></li>
+	</ul>
+</footer>
+</body>
+</html>

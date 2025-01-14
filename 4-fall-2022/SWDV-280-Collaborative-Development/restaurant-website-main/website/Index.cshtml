@@ -1,0 +1,71 @@
+﻿<!---------------------------------------------------------
+#Original Author:    Emmanuel Galvan
+#Date Created:       11/04/2022
+#Version:            0.5
+#Date Last Modified: 11/14/2022
+#Modified by:        Emmanuel Galvan
+#Modification log:
+    Version 0.0 - 11/04/2022 - Created new project
+    Version 0.1 - 11/07/2022 - Edited Index + Layout with resturant name and info
+    Version 0.2 - 11/08/2022 - Added new View pages: Menu + admin
+    Version 0.3 - 11/09/2022 - Added a header to the homepage with picture as well as the
+                               next section underneath it.
+    Version 0.4 - 11/10/2022 - Made the menu layout on the other page, liked it to the
+                               Controller for it to redirect. Added free image there with
+                               repeating 2 coloumn menu layout
+    Version 0.5 - 11/11/2022 - Made mod log
+------------------------------------------------------------>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="header">
+    <div class="text-center text-light">
+        <h1 class="display-4">Authentic Mexican Restaurant</h1>
+        <p>¡Bienvenidos!</p>
+    </div>
+</div>
+<section>
+    <div class="container">
+        <div class="text-center mb-3">
+            <h2 class="display-5 text-uppercase mt-3">About</h2>
+            <h3 class="section-subheading text-muted">New Resturant in Boise, Idaho</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Authentic Mexican Food!</h4>
+                <p class="text-muted">We have recipes from every state of Mexico and a vast variety of dishes to choose from!</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-check fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Quality!</h4>
+                <p class="text-muted">We make our plates with the best ingredients from local farmers. All of our plates ensures good consitent quality!</p>
+                            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-pepper-hot fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Delicious!</h4>
+                <p class="text-muted">Come and see why were are the best in valley!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+#header
+{
+        background: url(https://images.pexels.com/photos/7772336/pexels-photo-7772336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center center;
+        background-size: cover;
+        height: 50vh;
+}
+</style>

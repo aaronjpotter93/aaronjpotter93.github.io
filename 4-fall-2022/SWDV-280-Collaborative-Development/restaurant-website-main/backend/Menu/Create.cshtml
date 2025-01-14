@@ -1,0 +1,37 @@
+﻿@page
+@model TestBackEnd.Pages.Menu.CreateModel
+@{
+}
+
+<br />
+<h2>New Menu Item</h2>
+
+@if (Model.errorMessage.Length > 0) {
+    <div>
+        <strong>@Model.errorMessage</strong>
+    </div>
+}
+@if (Model.successMessage.Length > 0) {
+    <div>
+        <strong>@Model.successMessage</strong>
+    </div>
+}
+
+<form method="POST">
+    <table>
+        <tr>
+            <th>Item Name</th>
+            <th>Desc</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="mname" value="@Model.menuItem.MenuItemName"/></td>
+            <td><input type="text" name="mdesc" value="@Model.menuItem.MenuItemDescription" /></td>
+            <td><input type="text" name="mprice" value="@Model.menuItem.MenuItemPrice" /></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button></td>
+            <td><button role="button" href="/">Cancel</button></td>
+        </tr>
+    </table>
+</form>
